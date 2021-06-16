@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h3 {
+  font-weight: lighter;
+}
+.App {
+  text-align: center;
+}
+.gridContainer {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.5fr 1fr 1fr 2fr 1fr 1fr;
+}
+.header {
+  height: 2.5rem;
+  background-color: #e8e8e8;
+}
+.items {
+  height: 3rem;
+  line-height: 40px;
+  color: #696969;
+
+  /* background-color: #ddd; */
+  /* border: 2px solid black; */
+}
